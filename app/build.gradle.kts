@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -36,7 +37,19 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.firebase.auth)
     implementation(libs.material)
+
+    // Retrofit & Gson (For REST API weather calls)
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Play Services Location (For GPS location retrieval)
+    implementation("com.google.android.gms:play-services-location:21.0.1")
+
+    // Kotlin Coroutines (For background API fetching)
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
