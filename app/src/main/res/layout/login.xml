@@ -11,10 +11,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome Back"
-        android:textColor="#FFFFFF"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp" />
+        android:textColor="@color/headerFont"
+        android:textSize="40sp"
+        android:fontFamily="@font/bitcount"
+        android:layout_marginBottom="32dp"/>
 
     <EditText
         android:id="@+id/etEmail"

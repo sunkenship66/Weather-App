@@ -11,9 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Create Account"
-        android:textColor="#FFFFFF"
-        android:textSize="28sp"
-        android:textStyle="bold"
+        android:textColor="@color/headerFont"
+        android:textSize="40sp"
+        android:fontFamily="@font/bitcount"
         android:layout_marginBottom="32dp" />
 
     <EditText

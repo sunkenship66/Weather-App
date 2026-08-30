@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var fusedLocationClient: FusedLocationProviderClient
     private lateinit var dbHelper: DatabaseHelper
-    private val apiKey = "0590ef8fff22da8e34831b5f4da0902b" // Add your key here
+    private val apiKey = "0590ef8fff22da8e34831b5f4da0902b"
 
     private lateinit var tvLocation: TextView
     private lateinit var tvTemp: TextView

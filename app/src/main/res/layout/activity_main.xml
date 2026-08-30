@@ -62,9 +62,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Fetching Location..."
-                android:textColor="#FFFFFF"
-                android:textSize="26sp"
-                android:textStyle="bold" />
+                android:textColor="@color/white"
+                android:fontFamily="@font/bitcount"
+                android:textSize="32sp" />
 
             <TextView
                 android:id="@+id/tvTemp"
@@ -73,8 +73,8 @@
                 android:layout_marginVertical="12dp"
                 android:text="--°C"
                 android:textColor="#FFFFFF"
-                android:textSize="48sp"
-                android:textStyle="bold" />
+                android:textSize="55sp"
+                android:fontFamily="@font/bitcount"/>
 
             <TextView
                 android:id="@+id/tvCondition"
@@ -96,6 +96,7 @@
                 android:layout_height="wrap_content"
                 android:text="Humidity: --%"
                 android:textColor="#FFFFFF"
+
                 android:textSize="16sp" />
 
             <TextView
